@@ -9,7 +9,7 @@ The data for the table can be provided by a server backend (AJAX) or by a simple
 
 * Automatically generates an interactive product comparison table:
 	* Product features grouped by categories
-	* Collapsable categories
+	* Collapsible categories
 	* Optional feature tips and detailed descriptions
 	* Supports HTML tags inside the tables
 	* Supports images (via img tags)
