@@ -12,7 +12,7 @@
 // The use of local paths (example: /data/mydatafile.json) will be blocked in some browsers. Use the full web URL to avoid being blocked.
 // Example: http://www.danbp.org/myfolder/mydatafile.json.
 //
-var ctDataURL = "http://www.danbp.org/ComparisonMatrixGenerator/data/ct-Data.json";
+var ctDataURL = "http://www.danbp.org/product-compare-matrix-generator/data/ct-Data.json";
 //
 //
 //

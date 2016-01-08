@@ -80,11 +80,10 @@ Run the *example.html* file. You should see the sample table.
 
 
 ### Data table format
-|----| Column 0 | Column 1 | Column2 | Column 3 | Column 4| ... |
-|:--------|:---:| ----:| ----:| ----:|----:|----:|
-|First row| 0 | Feature list label |  Select box placeholder text | Prod 1 Title | Prod 2 Title | Prod X Title...|
-|Other rows| Row type | Category/feature label |  Feature tip (optional)| Prod 1 Spec | Prod 2 Spec | Prod X Spec...|
-
+|----| Column 0 | Column 1 | Column2 | Column 3 | Column N... |
+|:--------|:---:| ----:| ----:| ----:|----:|
+|First row| 0 | Feature list label |  Select box placeholder text | Prod 1 Title | Prod N Title|
+|Other rows| Row type | Category/feature label |  Feature tip (optional)| Prod 1 Spec | Prod N Spec |
 
 ### Row types
 | Type | Description|
@@ -98,9 +97,9 @@ Run the *example.html* file. You should see the sample table.
 ### Removing Bootstrap
 
 
-If your site has it's own layout framework you can get rid of all Bootstrap CSS files and replace them with yours. The pieces of Boostrap I don't recommend removing are:
+If your site has it's own layout framework you can get rid of all Bootstrap CSS files and replace them with yours. The pieces of Boostrap I don't recommend removing without some workouts in the code are:
 
-* Bootstrap.js: required for the popover tips in the feature list details.
+* bootstrap.js: required for the popover tips in the feature list details.
 * Glyphicons Halflings fonts: Used in the popover tips and in the collapsable rows icons.
  
 
