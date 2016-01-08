@@ -1,0 +1,106 @@
+/*
+ * Product feature comparison matrix generator
+ * Version 1.0
+ *
+ * Copyright 2016 Daniel Brooke Peig - contact@danbp.org - http://www.danbp.org
+ * Licensed under MIT
+ */
+
+html {
+    overflow-x: scroll !important;
+	min-width: 600px;
+}
+
+body {
+	/*padding-top: 70px; Usefull if you need to apply a Bootsrap navbar*/
+}
+
+.ct-parent {
+  font-weight: bold;
+  background-color: #eee !important;
+}
+
+.ct-child {
+  display: none;
+}
+
+.ct-collapsed{
+}
+
+.ct-collapsed i:before{
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  margin-right: 5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e080";
+}
+
+.ct-expanded {
+}
+
+.ct-expanded  i:before{
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  margin-right: 5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e114";
+}
+
+.ct-selectprod{
+}
+
+.ct-title-cell{
+}
+
+.ct-select-cell{
+}
+
+.ct-category-cell{
+}
+
+.ct-feature-cell{
+}
+
+.ct-popover:before{
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-size: 125%;
+  line-height: 1;
+  font-weight: normal;
+  margin-left: 10px;
+  margin-right: 5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e085";
+}
+
+.ct-cond-good{
+  color: green;
+}
+
+.ct-cond-bad{
+  color: red;
+}
+
+.ct-cond-partial{
+  color: DarkOrange;
+}
+
+.ct-cond-neutral{
+  color: grey;
+}

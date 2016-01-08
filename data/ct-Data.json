@@ -1,0 +1,34 @@
+﻿{ 
+  "select_count": 3,
+  
+  "autoformat_rules":
+  [
+  ["Yes", "ct-cond-good"],
+  ["No", "ct-cond-bad"],
+  ["?", "ct-cond-neutral"],
+  ["Read", "ct-cond-partial"],
+  ["Write", "ct-cond-partial"],
+  ["RW", "ct-cond-good"]
+  ],
+  
+  "data":
+  [
+  [0,"Product","Select here...","Arno","Wallita","Brastemp","Electrolux","Consul"],
+  [1,"Main","","","","","",""],
+  [2,"Manufacturer","","Tefal","Phillips","Whirpool","Whirpool","Whirpool"],
+  [2,"Photos","","<img src='https://upload.wikimedia.org/wikipedia/commons/a/ac/Classeur_groupe_de_3_1.PNG' height='30px'/>","<img src='https://upload.wikimedia.org/wikipedia/commons/d/dd/Classeur_groupe_de_3_2.PNG' height='30px'/>","<img src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Classeur_groupe_de_3_3.PNG' height='30px'/>","NA","NA"],
+  [2,"Website","","http://www.arno.com.br","http://www.walitta.com.br","www.brastemp.com.br","www.electrolux.com.br","www.consul.com.br"],
+  [2,"Price","","USD 600.00","USD 550.00","USD 200.00","USD 750.00","USD 650.00"],
+  [0,"Durability","Lasts longer","","","","",""],
+  [2,"Waterproof","Can be immersed","Yes","No","?","Yes","?"],
+  [2,"Dustproof","","Yes","No","No","No","Yes"],
+  [2,"Shockproof","Can be dropped from an helicopter","No","No","Yes","?","No"],
+  [0,"Color options","","","","","",""],
+  [2,"Blue","","Yes","Yes","Yes","Yes","Yes"],
+  [2,"Red","","No","No","No","No","No"],
+  [2,"Green","Best color","No","No","No","No","No"],
+  [2,"White","","Yes","No","Yes","No","No"],
+  [2,"Orange","","Blank","","?","Text","Yes"],
+  [2,"Fucsia","No","No","No","No","No","No"]
+]
+}
