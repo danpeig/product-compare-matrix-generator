@@ -40,7 +40,13 @@ The data for the table can be provided by a server backend (AJAX) or by a simple
 ## Issues
 Some browsers block the access of local `.json` files. To be able to load the data you will need to specify the full URL (example: http://www.mysite.com/mypage/mydata.json) of the json data file at the `ctDataURL` configuration parameter in the *ct-tablegen.js* script.
 
+
+## Live example
+
+Check this [live example](http://www.danbp.org/product-compare-matrix-generator/example.html)
+
 ## Installation
+
 
 ### Step 1: Get the code
 
