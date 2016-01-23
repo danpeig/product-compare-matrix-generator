@@ -1,6 +1,6 @@
 /*!
  * Product features comparison matrix generator
- * Version 1.0
+ * Version 1.1
  *
  * Copyright 2016 Daniel Brooke Peig - contact@danbp.org - http://www.danbp.org
  * Licensed under MIT
@@ -12,7 +12,7 @@
 // The use of local paths (example: /data/mydatafile.json) will be blocked in some browsers. Use the full web URL to avoid being blocked.
 // Example: http://www.danbp.org/myfolder/mydatafile.json.
 //
-var ctDataURL = "http://www.danbp.org/product-compare-matrix-generator/data/ct-Data.json";
+var ctDataURL = "data/ct-Data.json";
 //
 //
 //
@@ -91,7 +91,20 @@ $(document).ready(function () {
 			var ctSelectText = ctData[0][2];
 		var ctFeatureListTitle = ctData[0][1];
 		var ctCompareColumns = data.select_count; //How many columns will be compared at the same time.
-		var ctTitles = ctData[0];
+		
+		//SelectBox texts in alphabetical order
+		var ctTitles = [];
+		for (var i = 3; i<ctColCount; i++) {
+			ctTitles[i-3] = [];
+			ctTitles[i-3][0] = ctData[0][i];
+			ctTitles[i-3][1] = i;
+		}
+		ctTitles.sort(function(a,b) {
+		return a[0].localeCompare(b[0]);
+		});
+
+		
+		
 		var ctType = [];
 		for (var row in ctData) {
 			ctType[row] = ctData[row][0];
@@ -160,10 +173,9 @@ $(document).ready(function () {
 				text : ctSelectText
 			}));
 		$.each(ctTitles, function (key, value) {
-			if (key > 2)
 				$('.ct-selectprod').append($("<option/>", {
-						value : key,
-						text : value
+						value : ctTitles[key][1],
+						text : ctTitles[key][0]
 					}));
 		});
 
