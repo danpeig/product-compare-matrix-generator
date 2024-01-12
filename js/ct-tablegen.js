@@ -2,7 +2,7 @@
  * Product features comparison matrix generator
  * Version 1.1
  *
- * Copyright 2016 Daniel Brooke Peig - contact@danbp.org - http://www.danbp.org
+ * Copyright 2016 Daniel BP - contact@danbp.org - http://www.danbp.org
  * Licensed under MIT
  */
 
@@ -19,7 +19,7 @@ var ctDataURL = "data/ct-Data.json";
 // Layout for the table data+
 //
 //- First column:
-//     blank = Ignore the row data (don´t display the row)
+//     blank = Ignore the row data (donÂ´t display the row)
 //     0 = Category row, collapsed by default
 //     1 = Category row, expanded by default
 //     2 = Feature row
